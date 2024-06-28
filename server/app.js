@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import productRouter from "./apps/products.js";
+import { db } from "../server/utils/db.js";
 
 const app = express();
 const port = 4001;
